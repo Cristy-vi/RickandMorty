@@ -27,6 +27,6 @@ function pedirPersonaje(id) {
     const URL = `${API_URL}${PERSONAJE_URL(id)}`;
     $.get(URL, OPCIONES, PERSONAJE);
 
-
+};
 
 
